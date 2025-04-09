@@ -39,11 +39,7 @@
     php artisan key:generate
    ```
 
-5. Установите библиотеку spatie/laravel-query-builder
-
-   ```bash
-   composer require spatie/laravel-query-builder
-   ```
+5. Настройки для spatie/laravel-query-builder
    
    ```bash
    php artisan vendor:publish --provider="Spatie\QueryBuilder\QueryBuilderServiceProvider" --tag="query-builder-config"
@@ -61,29 +57,10 @@
    php artisan migrate
    ```
 
-8. Установите npm, vue, vuetify, vue-router.
+8. Установите npm.
 
    ```bash
    npm install
-   ```
-
-   ```bash
-   npm install vue
-   ```
-
-   ```bash
-   npm install vuetify
-   ```
-
-   ```bash
-   npm install vue-router
-   ```
-
-   ```bash
-   npm install @vitejs/plugin-vue
-   ```
-   ```bash
-   php artisan @mdi/font
    ```
 
 9. Запустите cервер artisan и npm, а также воркер для очередей:
